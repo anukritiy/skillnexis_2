@@ -1,0 +1,42 @@
+.title {
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  max-width: 14ch;
+}
+
+.lead {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-width: 44ch;
+}
+
+.links {
+  margin-top: 40px;
+  display: grid;
+  gap: 16px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px 0 4px 18px;
+  border-left: 4px solid var(--accent);
+  color: var(--ink);
+  text-decoration: none;
+  max-width: 480px;
+}
+
+.link strong {
+  font-size: 1.15rem;
+}
+
+.link span {
+  color: var(--muted);
+}
+
+.link:hover strong {
+  color: var(--accent);
+}

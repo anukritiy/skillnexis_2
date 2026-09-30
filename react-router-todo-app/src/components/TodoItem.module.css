@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.check input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.done {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.delete {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 12px;
+  color: var(--danger);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: var(--surface);
+}
